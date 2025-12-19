@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hilary Emerie's Potfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b3901ca3cf.js" crossorigin="anonymous"></script>
+<body>
+  
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img width="304px" src="assets/images/profile-logo.jpg" class="logo">
+            <ul id="sidemenu">
+                <li> <a href="#header">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#services">Services</a></li>
+                <li> <a href="#portfolio">Portfolio</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+              <h1>Hi, I'm <span>Hilary</span> <br> Emerie From Nigeria</h1>
+        </div>
+    </div>
+    </div>
+   <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img  src="assets/images/secongpic_52 AM.png" alt="">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                <p> I am a detail-oriented Front-End Web Developer and UI/UX Designer with hands-on experience in building responsive, user-friendly interfaces and scalable web solutions. Skilled in HTML, CSS, JavaScript, React, and SQL, I thrive in Agile environments and enjoy collaborating on innovative projects that enhance digital experiences. With a strong foundation in design principles, problem-solving, and data analysis, I bring both technical expertise and creativity to every project.</p>               
+               <div class="tab-tittles">
+                <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+               </div>
+
+               <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li> <span>UI/UX</span> <br> Designing Web/App Interfaces</li>
+                    <li> <span>Web Development</span> <br> Web/App Interfaces</li>
+                    <li> <span>App Development</span> <br> Building Andriod/iOS apps</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="experience">
+                <ul>
+                    <li> <span>2021 - 2023</span> <br> Computer Training at Imo State University</li>
+                    <li> <span>2022 - 2024</span> <br> Web developer at Total(Remotely)</li>
+                    <li> <span>2025 Jan - Nov</span> <br> Software Development- Certificate in Proficiency in Information Systems Management(CPISMS)</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="education">
+                <ul>
+                    <li> <span>2025</span> <br> Certificate in Programming and Information Systems Management(CPISM) at Aptech, Abuja</li>
+                    <li> <span>2024 - 2025</span> <br> UI/UX Design Training at Aptech</li>
+                    <li> <span>2020 - 2024</span> <br> Bachelor's Degree in Computer Science at Imo State University, Nigeria</li>
+                </ul>
+               </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- services -->
+  <div id="services">
+    <div class="container">
+        <h1 class="sub-tittles">My Services</h1>
+        <div class="services-list">
+
+            <!-- Web Development -->
+            <div> <br>
+                <i class="fa-solid fa-code" style="font-size: 40px;"></i>  <br><br>
+                <h2>Web Development</h2>
+                <p>Web designing is about creating responsive, user-friendly, and visually appealing websites. I focus on blending creativity with functionality to deliver clean designs that work seamlessly across all devices.</p>
+
+                <a href="https://www.geeksforgeeks.org/difference-between-software-development-web-development-and-app-development/"
+                   target="_blank" rel="noopener noreferrer">
+                    Learn More
+                </a>
+            </div>
+
+            <!-- UI/UX Design -->
+            <div>
+                <img class="logow" width="34px" src="https://cdn2.iconfinder.com/data/icons/shopping-and-commerce-2-10/64/146-128.png" alt="">
+                <h2>UI/UX Design</h2>
+                <p>UI/UX designing is about crafting intuitive, engaging, and user-friendly digital experiences. I focus on combining aesthetics with usability, ensuring every interface is visually appealing, easy to navigate, and tailored to user needs.</p>
+
+                <a href="https://uizard.io/blog/guide-to-ux-design/"
+                   target="_blank" rel="noopener noreferrer">
+                    Learn More
+                </a>
+            </div>
+
+            <!-- App Design -->
+            <div>
+                <br>
+            <i class="fa-brands fa-app-store-ios" style="font-size: 40px;"></i> <br> <br> 
+          
+                <h2>App Design</h2>
+                <p>App designing is about creating clean, intuitive, and engaging mobile interfaces. I focus on making apps visually appealing, easy to use, and responsive, ensuring a seamless experience across different devices.</p>
+
+                <a href="https://www.manypixels.co/blog/product-design/app-design"
+                   target="_blank" rel="noopener noreferrer">
+                    Learn More
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+ <!-- portfolio -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittles1"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img height="230px" src="assets/images/moveit.png" alt="">
+                <div class="layer">
+                    <h3>MoveIt</h3>
+                    <p>Fast, reliable and affordable delivery services right at door step</p>  
+                    <a href="https://chinemeremhilary.github.io/moveIt23/ "  target="_blank" rel="noopener noreferrer"></a>><i class="fa-solid fa-arrow-up-right-from-square"></i></a>   
+                         
+                 </div>
+            </div>
+            <div class="work">
+                <img height="230px" src="assets/images/e-commers food.jpg" alt="">
+                <div class="layer">
+                    <h3>E-Commers Foods</h3>
+                    <p>Order any food of your choice and enjoy fresh, delicious food delivered right to you</p>  
+                    <a href="https://e-c-organicfood.netlify.app/" target="_blank" rel="noopener noreferrer"> </a>  ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>        
+                 </div>
+            </div>
+            <div class="work">
+                <img  height="230px" src="assets/images/tindog2.png" alt="">
+                <div class="layer">
+                    <h3>TinDog</h3>
+                    <p>The fun new way for your furry friend to meet and connect with other dogs nearby </p>  
+                    <a href="https://chinemeremhilary.github.io/tindog23/"  target="_blank" rel="noopener noreferrer"> </a>  ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>        
+                 </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn"> See More</a>
+    </div>
+  </div>
+
+
+
+<!-- contact -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> hilaryemerie8@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>+2347025597639</p>
+                <div class="social-icons">
+                    <a href=""> <i class="fa-brands fa-square-facebook"></i></a>
+                    <a href=""> <i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/chinemerem-emerie-892983347?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"> <i class="fa-brands fa-square-linkedin"></i></a>
+                    <a href="https://x.com/hilarytaker?s=21"> <i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+                <a href="Chinemerem_Hilary_Emerie_CV (5).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://formspree.io/f/mvgbjjaz"
+  method="POST">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright &copy; Hilary. Made with <i class="fa-solid fa-heart"></i> by Taker</p>
+    </div>
+ </div>
+
+
+
+<script>
+
+
+
+
+
+   var tablinks = document.getElementsByClassName("tab-links")
+   var tabcontents = document.getElementsByClassName("tab-contents")
+
+   function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-links");
+    }
+
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-links");
+    document.getElementById(tabname).classList.add("active-tab")
+   }
+
+
+
+</script>
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+
+
+</body>
+</html>
